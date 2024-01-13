@@ -15,5 +15,5 @@ Customize the content in the HTML file with your own information.
 Adjust the CSS styles in the style.css file to tailor the appearance to your preferences.
 Explore and modify the JavaScript in main.js if additional functionality is desired.
 Feel free to fork and use this project as a starting point for your own online profile or portfolio. Don't forget to replace the profile image, personal details, and links with your own information. Happy coding!
-
+Live Version : https://mohamed-sayed-elmahdy.github.io/Myprofile-card/
 ![Sluralsight-Login-Page](images/screenshot.png)
