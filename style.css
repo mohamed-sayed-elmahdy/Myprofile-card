@@ -22,7 +22,7 @@ a {
   flex-wrap: wrap;
 }
 .mainContainer {
-  background: url("/images/green.jpg") rgb(38, 36, 36);
+  background: url("images/green.jpg") rgb(38, 36, 36);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ a {
   height: 100vh;
 }
 .profile-card {
-  background: rgba(255, 255, 10, 0.3);
+  background: rgba(144, 160, 143, 0.893);
   color: white;
   font-weight: 700;
   padding: 20px 30px;
@@ -107,8 +107,6 @@ img {
 }
 
 @media screen and (max-width: 987px) {
-
-
   .profile-card {
     width: 95%;
   }
@@ -118,16 +116,13 @@ img {
 }
 
 @media screen and (max-width: 558px) {
-
   .conectionInfAndImg {
     justify-content: center;
   }
   .profile-card .img {
     order: 1;
-
   }
   .conectionInfo {
     order: 2;
-    
-      }
+  }
 }
