@@ -22,7 +22,7 @@ a {
   flex-wrap: wrap;
 }
 .mainContainer {
-  background: url("/images/green.jpg") rgb(38, 36, 36);
+  background: url("images/green.jpg") rgb(38, 36, 36);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
