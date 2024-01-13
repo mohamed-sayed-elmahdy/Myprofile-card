@@ -11,6 +11,9 @@
   color: black;
   overflow: auto;
 }
+body {
+  overflow: auto;
+}
 a {
   text-decoration: none;
 }
@@ -28,6 +31,7 @@ a {
   background-repeat: no-repeat;
   justify-content: center;
   height: 100vh;
+  overflow: auto;
 }
 .profile-card {
   background: rgba(144, 161, 143, 0.893);
