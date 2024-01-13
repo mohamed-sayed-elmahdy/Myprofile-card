@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;700&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  color: black;
+  overflow: auto;
+}
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.mainContainer {
+  background: url("/images/green.jpg") rgb(38, 36, 36);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  height: 100vh;
+}
+.profile-card {
+  background: rgba(255, 255, 10, 0.3);
+  color: white;
+  font-weight: 700;
+  padding: 20px 30px;
+  border-radius: 40px;
+  box-shadow: 3px 3px 3px 3px black;
+  height: fit-content;
+  width: 58%;
+}
+.img {
+  width: 240px;
+  height: 240px;
+  padding: 1rem;
+}
+img {
+  width: 93%;
+  height: 93%;
+  border-radius: 50%;
+  box-shadow: -2px 1px 3px 3px black;
+}
+.conectionInfAndImg {
+  justify-content: space-between;
+}
+.conectionInfo {
+  align-self: self-start;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+.conectionInfo .name {
+  font-weight: 900;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+.conectionInfo hr {
+  border: 1px solid black;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.postion,
+.address,
+.numberPhone,
+.email {
+  gap: 1rem;
+}
+.address {
+  gap: 1.2rem;
+}
+.profile-card .links {
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  font-size: 35px;
+}
+.fa-location-dot {
+  color: white;
+}
+.fa-phone {
+  color: rgb(29, 82, 218);
+}
+.fa-envelope {
+  color: red;
+}
+
+.fa-whatsapp {
+  color: #148a02;
+  font-weight: 700;
+}
+.fa-upwork {
+  color: #156709;
+  font-weight: 700;
+}
+.fa-linkedin {
+  color: #74c0fc;
+}
+
+@media screen and (max-width: 987px) {
+
+
+  .profile-card {
+    width: 95%;
+  }
+  .conectionInfo .name {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 558px) {
+
+  .conectionInfAndImg {
+    justify-content: center;
+  }
+  .profile-card .img {
+    order: 1;
+
+  }
+  .conectionInfo {
+    order: 2;
+    
+      }
+}
