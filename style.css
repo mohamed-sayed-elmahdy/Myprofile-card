@@ -9,7 +9,6 @@
   border: none;
   text-decoration: none;
   color: black;
-
 }
 body {
   overflow: auto;
@@ -56,6 +55,7 @@ img {
 }
 .conectionInfAndImg {
   justify-content: space-between;
+  flex-wrap: wrap-reverse;
 }
 .conectionInfo {
   align-self: self-start;
@@ -122,11 +122,5 @@ img {
 @media screen and (max-width: 558px) {
   .conectionInfAndImg {
     justify-content: center;
-  }
-  .profile-card .img {
-    order: 1;
-  }
-  .conectionInfo {
-    order: 2;
   }
 }
